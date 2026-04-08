@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemant Shivaram Gouda | Portfolio</title>
+    <style>
+        /* Modern System Font Stack & Smooth Scrolling */
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+            background-color: #f4f6f8;
+        }
+        
+        /* Container for centralizing content */
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+
+        /* ATTENTION SECTION (Hero Header) */
+        header {
+            background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%);
+            color: #ffffff;
+            padding: 80px 0 60px;
+            text-align: center;
+            border-bottom: 4px solid #3498db;
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 3rem; 
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+        header p { 
+            font-size: 1.3rem; 
+            margin-top: 15px; 
+            color: #bdc3c7; 
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        /* GENERAL SECTIONS (Interest & Desire) */
+        section {
+            background: #ffffff;
+            margin: 30px 0;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 { 
+            color: #1a252f; 
+            border-bottom: 2px solid #3498db; 
+            padding-bottom: 10px; 
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        
+        /* Lists & Formatting */
+        .item-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .item-subtitle {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        ul.custom-list { 
+            list-style-type: none; 
+            padding-left: 0; 
+        }
+        ul.custom-list li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+        ul.custom-list li::before {
+            content: "■";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 0.8rem;
+        }
+
+        /* ACTION SECTION (Contact) */
+        .contact-section {
+            text-align: center;
+            background: #ecf0f1;
+            padding: 50px 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+        .contact-section p {
+            font-size: 1.1rem;
+            color: #34495e;
+            max-width: 600px;
+            margin: 0 auto 25px auto;
+        }
+        
+        /* Buttons */
+        .cta-button {
+            display: inline-block;
+            background: #3498db;
+            color: #ffffff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            margin: 10px;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover { 
+            background: #2980b9; 
+        }
+        .cta-button.secondary {
+            background: transparent;
+            color: #3498db;
+            border: 2px solid #3498db;
+        }
+        .cta-button.secondary:hover {
+            background: #3498db;
+            color: #ffffff;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.2rem; }
+            .container { width: 95%; }
+            section { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div class="container">
+            <h1>Hemant Shivaram Gouda</h1>
+            <p>MBA Aspirant | Finance Domain & Strategic Analysis</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- EDUCATION SECTION -->
+        <section id="education">
+            <h2>Academic Profile</h2>
+            <div class="item-title">Master of Business Administration (MBA)</div>
+            <div class="item-subtitle">RNS Institute of Technology (RNSIT), Bengaluru • First Year</div>
+            <p>Focusing on financial strategy, business management, and quantitative analysis.</p>
+
+            <div class="item-title" style="margin-top: 25px;">Bachelor of Commerce (B.Com)</div>
+            <div class="item-subtitle">Govt. First Grade College Sirsi</div>
+            <p>Built a strong foundation in accounting principles, corporate finance, and economics.</p>
+        </section>
+
+        <!-- ACHIEVEMENTS & PROJECTS SECTION -->
+        <section id="portfolio">
+            <h2>Strategic Projects & Competencies</h2>
+            <ul class="custom-list">
+                <li>
+                    <strong>Financial Modeling & Pricing Strategy:</strong> Spearheaded decision-making in the Universal Rental Car V2 simulation, achieving a cumulative profit of $82.8M and maintaining 100% capacity utilization.
+                </li>
+                <li>
+                    <strong>Leadership & Crisis Management:</strong> Successfully navigated complex organizational challenges and implemented strategic initiatives during the Harvard Business Publishing "Patient Zero" simulation.
+                </li>
+                <li>
+                    <strong>Quantitative Data Analysis:</strong> Conducted comprehensive academic research on the socio-economic challenges of street vendors in Bengaluru, applying rigorous statistical methods including hypothesis testing and regression analysis.
+                </li>
+                <li>
+                    <strong>Core Skill Set:</strong> Financial statement analysis, comparative statements, trend analysis, Porter's Five Forces, startup business modeling, and strategic market segmentation.
+                </li>
+            </ul>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <div class="contact-section">
+            <h2>Let's Connect</h2>
+            <p>I am actively seeking opportunities in strategic finance within the tech sector. I would welcome the chance to discuss how my analytical background and strategic mindset can drive value for your team.</p>
+            
+            <a href="mailto:your.email@example.com" class="cta-button">Email Me</a>
+            <!-- Ensure your resume is uploaded as resume.pdf in the same GitHub repository -->
+            <a href="resume.pdf" class="cta-button secondary">Download Resume</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Hemant Shivaram Gouda. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
